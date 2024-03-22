@@ -9,12 +9,15 @@
     height: 500px;
     border:  1px solid #333;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
 }
 
 .pipe {
     position: absolute;
     bottom: 0;
     width: 80px;
+    left: 120px;
    /* animation: pipe-animation 2s infinite linear; */
 }
 
@@ -22,7 +25,6 @@
     width: 150px;
     position: absolute;
     bottom: 0;
-    
 }
 
 .jump {
